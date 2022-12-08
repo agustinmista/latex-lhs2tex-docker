@@ -71,4 +71,4 @@ RUN cabal update && \
 
 WORKDIR /home/$USER_NAME/workdir
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/bash", "-c"]
