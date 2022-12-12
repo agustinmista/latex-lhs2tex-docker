@@ -91,7 +91,7 @@ We can additionally instruct VSCode to build documents on save. For this we need
       "*.lhs.tex",
       "notation.fmt",
       "references.bib",
-			"some/other/folder/*.tex"
+      "some/other/folder/*.tex"
     ],
   },
   "triggerTaskOnSave.showNotifications": true,
