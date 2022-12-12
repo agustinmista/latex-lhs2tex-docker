@@ -4,7 +4,7 @@ An Ubuntu image with Texlive-full and Lhs2TeX preinstalled
 
 ## Usage
 
-## Make
+### Make
 
 You can add this to your makefile:
 
@@ -16,11 +16,9 @@ env:
 
 And run `make env` to launch the build environment.
 
-## GitHub Action CI
+### GitHub Action CI
 
-You can use this image to build LaTeX documents inside a GitHub action. The example below shows a simple workflow that assumes the existence of a `Makefile` and publishes all the generated PDFs as an artifact.
-
-
+You can use this image to build LaTeX documents inside a GitHub action. The example below shows a simple workflow that assumes the existence of a `Makefile` and publishes all the generated PDFs as an artifact:
 
 ```yaml
 name: Build and publish LaTeX documents
@@ -83,7 +81,6 @@ You can instruct VSCode to open a project inside this container by adding the fo
 ```
 
 We can additionally instruct VSCode to build documents on save. For this we need two extra definitions in our project:
-
 
 * `.vscode/settings.json`
 
