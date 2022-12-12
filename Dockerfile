@@ -67,7 +67,7 @@ RUN cabal update && \
     cabal install --global lhs2tex
 
 # ----------------------------------------
-# Change the working directory and the entry point to emacs with better color support
+# Change the working directory and set the entrypoint
 
 WORKDIR /home/$USER_NAME/workdir
 
